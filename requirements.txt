@@ -3,4 +3,5 @@ ultralytics
 PIL
 flask
 YOLO
-
+cv2
+numpy
