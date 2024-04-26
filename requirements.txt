@@ -1,6 +1,6 @@
 gunicorn
 ultralytics
-PIL
+Pillow
 flask
 
 
