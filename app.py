@@ -33,7 +33,7 @@ def predict_disease(image_path):
 def home():
     return render_template('index.html', prediction=None)
 
-@app.route('/predict', methods=['GET'])
+@app.route('/predict', methods=['POST'])
 def predict():
     # Get the image file from the request
     file = request.files['image']
